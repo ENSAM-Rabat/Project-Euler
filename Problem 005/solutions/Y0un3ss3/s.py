@@ -13,4 +13,4 @@ def rlcm(end, s=1):
         return rlcm(end-1, lcm(s, end))
     return s
 
-print(rlcm(20)) # output: 232792560
+print(rlcm(20)) # output : 232792560
